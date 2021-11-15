@@ -7,14 +7,6 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
-    },
-    {
-      "image": "sdasd",
-      "name": "sdad",
-      "price": "sadasd",
-      "description": "sadasd",
-      "available": true,
-      "id": 4
     }
   ]
 }

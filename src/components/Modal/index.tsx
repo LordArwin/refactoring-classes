@@ -3,12 +3,11 @@ import ReactModal from 'react-modal';
 import { IModal } from '../../interfaces';
 
 function Modal({isOpen,setIsOpen, children}:IModal){
-  const [modalStatus, ] = useState(isOpen)
     return (
       <ReactModal
         shouldCloseOnOverlayClick={!false}
         onRequestClose={setIsOpen}
-        isOpen={modalStatus}
+        isOpen={isOpen}
         ariaHideApp={false}
         style={{
           content: {
